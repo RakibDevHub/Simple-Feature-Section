@@ -40,9 +40,9 @@ This project is a clean, responsive "Feature Section" designed for SaaS products
 
 ### What I learned
 
-In this challenge, I focused on mastering **Flexbox wrapping** and **Media Screen** transitions[cite: 1].
+In this challenge, I focused on mastering **Flexbox wrapping** and **Media Screen** transitions.
 
-One key highlight was managing card dimensions using `flex-wrap: wrap`[cite: 1]. By combining `max-width` on individual cards with `justify-content: center` on the parent container, the layout handles the transition from a 3-column row to a 1-column stack automatically[cite: 1]. I also implemented dynamic header scaling for better mobile typography[cite: 1].
+One key highlight was managing card dimensions using `flex-wrap: wrap`. By combining `max-width` on individual cards with `justify-content: center` on the parent container, the layout handles the transition from a 3-column row to a 1-column stack automatically. I also implemented dynamic header scaling for better mobile typography.
 
 ```css
 /* Responsive header logic */
