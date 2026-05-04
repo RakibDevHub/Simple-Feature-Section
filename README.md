@@ -40,31 +40,44 @@ This project is a clean, responsive "Feature Section" designed for SaaS products
 
 ### What I learned
 
-In this challenge, I focused on mastering **Flexbox wrapping** and **box-shadow optics**.
+In this challenge, I focused on mastering **Flexbox wrapping** and **Media Screen** transitions[cite: 1].
 
-One key highlight from my CSS was managing the card dimensions while using `flex-wrap: wrap`. By using a `max-width` on the `.feature-card` and `justify-content: center` on the container, the layout automatically handles the transition from a 3-column row to a 1-column stack without needing complex math for every breakpoint.
+One key highlight was managing card dimensions using `flex-wrap: wrap`[cite: 1]. By combining `max-width` on individual cards with `justify-content: center` on the parent container, the layout handles the transition from a 3-column row to a 1-column stack automatically[cite: 1]. I also implemented dynamic header scaling for better mobile typography[cite: 1].
 
 ```css
+/* Responsive header logic */
+.feature-header {
+  max-width: 400px;
+}
+
+@media (max-width: 640px) {
+  .feature-header {
+    max-width: 600px;
+  }
+}
+
+/* Automatic card wrapping */
 .feature-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 32px;
 }
-
-.feature-card {
-  max-width: 350px;
-  flex-direction: column;
-}
 ```
 
 ### Built with
 
-- Semantic HTML5 for accessibility.
-- CSS Custom Styling (No frameworks used).
-- Flexbox Layout for both the section structure and internal card alignment.
+-   **Semantic HTML5 markup**: For structured and accessible content.
+-   **CSS Custom Styling**: Utilizing Flexbox for both the primary layout and internal card alignment.
+-   **Media Queries**: Tailoring the header and container widths for specific breakpoints.
+-   **Responsive Assets**: Integrating SVG backgrounds and high-quality images that scale with the layout.
 
 ## Features
+
+-   **Adaptive Header**: The header width adjusts based on the screen size to prevent awkward text wrapping.
+-   **Dynamic Grid**: Cards wrap seamlessly from horizontal to vertical stacks based on available width.
+-   **Deep Shadow UI**: Uses layered box-shadows to create a modern, elevated feel on dark backgrounds.
+-   **Nested Flexbox**: Each card uses `flex-direction: column` to perfectly align icons, text, and descriptive images.
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
