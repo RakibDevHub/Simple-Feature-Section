@@ -39,13 +39,23 @@
         padding: 60px 20px;
       }
 
-      .feature-section h1 {
+      .feature-header {
+        max-width: 400px;
+      }
+
+      @media (max-width:640px) {
+        .feature-header{
+          max-width: 600px;
+        }
+      }
+
+      .feature-header h1 {
         font-size: 36px;
         margin-bottom: 16px;
         text-align: center;
       }
 
-      .feature-section p {
+      .feature-header p {
         font-size: 18px;
         text-align: center;
       }
@@ -135,8 +145,10 @@
     
     -->
     <div class="feature-section">
-      <h1>Quality feedbacks for </br> your SaaS products</h1>
-      <p>The blocks & components you need</p>
+      <div class="feature-header">
+        <h1>Quality feedbacks for your SaaS products</h1>
+        <p>The blocks & components you need</p>
+      </div>
 
       <div class="feature-container">
         <div class="feature-card">
