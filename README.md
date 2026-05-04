@@ -70,6 +70,7 @@ One key highlight from my CSS was managing the card dimensions while using `flex
   flex-direction: column;
 }
 
+---
 ### Useful resources
 
 <!--
