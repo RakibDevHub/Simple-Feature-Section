@@ -69,8 +69,8 @@ One key highlight from my CSS was managing the card dimensions while using `flex
   max-width: 350px;
   flex-direction: column;
 }
+```
 
----
 ### Useful resources
 
 <!--
