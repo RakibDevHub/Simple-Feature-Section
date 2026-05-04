@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple Feature Section | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        background-image: url("resources/Background_image.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #272626;
+        color: #fff;
+      }
+
+      .feature-section {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 20px;
+      }
+
+      .feature-section h1 {
+        font-size: 36px;
+        margin-bottom: 16px;
+        text-align: center;
+      }
+
+      .feature-section p {
+        font-size: 18px;
+        text-align: center;
+      }
+
+      .feature-container {
+        max-width: 1350px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        margin-top: 32px;
+      }
+
+      .feature-card {
+        background-color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 15px;
+        padding: 32px;
+        max-width: 350px;
+        box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+      }
+
+      .feature-card span {
+        font-size: 24px;
+        margin-bottom: 16px;
+        background-color: #eee;
+        border-radius: 50%;
+        padding: 12px;
+      }
+
+      .feature-card h2 {
+        font-size: 20px;
+        margin-bottom: 16px;
+      }
+
+      .feature-card p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 16px;
+        text-align: start;
+      }
+
+      .feature-card img {
+        border-radius: 10px;
+        width: 100%;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin:16px 0px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+     ✋
+    
+     🥅
+    
+     💬
+    
+     Quality feedbacks for your SaaS products
+    
+     The blocks & components you need
+    
+     Collect Feedback at Multiple Touchpoints
+    
+     Provide a comprehensive understanding of the customer experience.
+    
+     Ask Targeted and Specific Questions
+    
+     Avoid vague or open-ended questions that may not yield actionable insights.
+    
+     Prioritize and Respond to Feedback
+    
+     Communicate the changes or improvements you've made in response to their feedback.
+    
+    -->
+    <div class="feature-section">
+      <h1>Quality feedbacks for your SaaS products</h1>
+      <p>The blocks & components you need</p>
+
+      <div class="feature-container">
+        <div class="feature-card">
+          <span>✋</span>
+          <h2>Collect Feedback at Multiple Touchpoints</h2>
+          <p>
+            Provide a comprehensive understanding of the customer experience.
+          </p>
+          <img src="./resources/photo_2.png" alt="FeedBack Image" />
+        </div>
+
+        <div class="feature-card">
+          <span>🥅</span>
+          <h2>Ask Targeted and Specific Questions</h2>
+          <p>
+            Avoid vague or open-ended questions that may not yield actionable
+            insights.
+          </p>
+          <img src="./resources/photo_1.png" alt="Feedback Image" />
+        </div>
+
+        <div class="feature-card">
+          <span>💬</span>
+          <h2>Prioritize and Respond to Feedback</h2>
+          <p>
+            Communicate the changes or improvements you've made in response to
+            their feedback.
+          </p>
+          <img src="./resources/photo_3.png" alt="Feedback Image" />
+        </div>
+      </div>
+    </div>
+
+    <div class="author-info">
+      Coded by <a href="#">Md Rakkibul Islam</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
